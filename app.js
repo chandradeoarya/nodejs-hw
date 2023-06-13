@@ -4,7 +4,7 @@ const port = process.env.PORT || 8000; //EB will pick default env value 8080 if 
 
 app.get('/', (req, res) => {
     console.log("New get")
-    res.send('<h1>Hello DevOps on dev!</h1>');
+    res.send('<h1>Hello DevOps on docker!</h1>');
     });
 
 app.listen(port);
